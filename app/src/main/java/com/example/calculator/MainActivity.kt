@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         fragmentManager.beginTransaction()
             .replace(R.id.frame, CalculatorFragment() as CalculatorFragment)
             .addToBackStack("frag").commit()
+
     }
 }
